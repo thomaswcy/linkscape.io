@@ -40,5 +40,19 @@ import ColorSwitcher from '../components/color-switcher'
     <Text as="p" variant="subtitle" mt={3}>
       A non-profit organization which works for the future of open-source software
     </Text>
+    <Grid
+      gap={4}
+      columns="auto auto auto"
+      sx={{
+        alignItems: 'center',
+        justifyContent: 'center',
+        fontSize: 2,
+        mt: 3,
+        mb: 4,
+        a: { color: 'muted', transition: 'color .125s ease-in-out' }
+      }}
+    >
+      <NavLink href="https://github.com/LinkScapeFoundation">GitHub</NavLink>
+    </Grid>
   </Container>
 </Box>
