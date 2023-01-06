@@ -69,8 +69,18 @@ const DocsPage = () => (
     <br />
     <br />
     <Container>
-      <Card>
-        <Heading
+      <Box
+        sx={{
+          color: 'white',
+          lineHeight: 1.5,
+          textAlign: 'left',
+          margin: 'auto',
+          maxWidth: '800px',
+          my: 5,
+          px: 4,
+          py: 3,
+        }}
+      >        <Heading
           as="div"
           sx={{
             fontSize: ['13vw', '7.4vw'],
@@ -97,7 +107,7 @@ const DocsPage = () => (
           Make it real.
         </Heading>
       </Card>
-    </Container>
+    </Box>
   </>
 )
 
