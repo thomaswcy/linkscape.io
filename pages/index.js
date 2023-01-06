@@ -70,7 +70,7 @@ const DocsPage = () => (
       <Heading variant="ultratitle">
         Have a dream?
         Make it real.
-      </heading>
+      </Heading>
     </container>
   </>
 )
