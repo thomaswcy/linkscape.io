@@ -68,48 +68,46 @@ const DocsPage = () => (
     </Box>
     <br />
     <br />
-    <Container>
-      <Box
+    <Box
+      sx={{
+        color: 'Darker',
+        lineHeight: 1.5,
+        textAlign: 'left',
+        margin: 'auto',
+        maxWidth: '1600px',
+        my: 5,
+        px: 4,
+        py: 3,
+      }}
+    >        
+      <Heading
+        as="div"
         sx={{
-          color: 'Darker',
-          lineHeight: 1.5,
-          textAlign: 'left',
-          margin: 'auto',
-          maxWidth: '1600px',
-          my: 5,
-          px: 4,
-          py: 3,
+          fontSize: '96px',
+          mb: [0, '-10px'],
+          WebkitTextStroke: 'black',
+          WebkitTextStrokeWidth: '0.7px',
+          WebkitTextFillColor: 'White',
         }}
-      >        
-        <Heading
-          as="div"
-          sx={{
-            fontSize: '96px',
-            mb: [0, '-10px'],
-            WebkitTextStroke: 'black',
-            WebkitTextStrokeWidth: '0.7px',
-            WebkitTextFillColor: 'White',
-          }}
-        >
-          Have a dream?
-        </Heading>
-        <Heading
-          sx={{
-            color: 'White',
-            fontSize: '96px',
-            mb: 2,
-            textShadow: `0px 0px 40.4900016784668px rgba(255, 71, 148, 1),
-                          0px 0px 64.9800033569336px rgba(255, 71, 148, 0.9),
-                          0px 0px 210.42999267578125px rgba(255, 71, 148, 0.8),
-                          0px 0px 200.8599853515625px rgba(255, 71, 148, 0.7)`,
-            position: 'relative',
-            zIndex: '500',
-          }}
-        >
-          Make it real.
-        </Heading>
-      </Box>
-    </Container>
+      >
+        Have a dream?
+      </Heading>
+      <Heading
+        sx={{
+          color: 'White',
+          fontSize: '96px',
+          mb: 2,
+          textShadow: `0px 0px 40.4900016784668px rgba(255, 71, 148, 1),
+                        0px 0px 64.9800033569336px rgba(255, 71, 148, 0.9),
+                        0px 0px 210.42999267578125px rgba(255, 71, 148, 0.8),
+                        0px 0px 200.8599853515625px rgba(255, 71, 148, 0.7)`,
+          position: 'relative',
+          zIndex: '500',
+        }}
+      >
+        Make it real.
+      </Heading>
+    </Box>
   </>
 )
 
