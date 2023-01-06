@@ -31,14 +31,14 @@ const DocsPage = () => (
       name="LinkScape"
       title="LinkScape"
     description="A non-profit organization which works for the future of open-source software"
-    color="#ec3750"
+    color="#338eda"
     manifest="/site.webmanifest"
     />
   
     <Box as="header" sx={{ bg: 'sheet', color: 'text' }}>
       <Container sx={{ pt: 5, pb: [3, 4], textAlign: 'center' }}>
         <ColorSwitcher />
-        <Heading as="h1" variant="title" color="red">
+        <Heading as="h1" variant="title" color="blue">
           LinkScape
         </Heading>
         <Text as="p" variant="subtitle" mt={3}>
