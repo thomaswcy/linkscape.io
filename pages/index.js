@@ -93,7 +93,7 @@ const DocsPage = () => (
        children="Submit"
        sx={{ gridColumn: [null, 'span 2'] }}
      />
-   </Grid>
+    </Grid>
   </container>
   </>
 )
