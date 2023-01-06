@@ -71,7 +71,7 @@ const DocsPage = () => (
     <Container>
       <Box
         sx={{
-          color: 'White',
+          color: 'Darker',
           lineHeight: 1.5,
           textAlign: 'left',
           margin: 'auto',
@@ -95,6 +95,7 @@ const DocsPage = () => (
         </Heading>
         <Heading
           sx={{
+            color: 'White',
             fontSize: ['13vw', '7.4vw'],
             mb: 2,
             textShadow: `0px 0px 40.4900016784668px rgba(255, 71, 148, 1),
