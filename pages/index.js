@@ -67,11 +67,11 @@ const DocsPage = () => (
       </Container>
     </Box>
     <Container sx={{ pt: 5, pb: [3, 4], textAlign: 'center' }}>
-       <Heading variant="ultratitle">
+      <Heading variant="ultratitle">
         Have a dream?
         Make it real.
-       </Heading>
-    </container>
+      </Heading>
+    </Container>
   </>
 )
 
