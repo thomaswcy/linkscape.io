@@ -67,10 +67,10 @@ const DocsPage = () => (
       </Container>
     </Box>
     <container>
-      <Component key=ultratitle variant=ultratitle sx={{ mt: 0, mb: 3 }}>
+      <Heading variant="ultratitle">
         Have a dream?
         Make it real.
-      </component>
+      </heading>
     </container>
   </>
 )
