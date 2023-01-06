@@ -34,7 +34,6 @@ const DocsPage = () => (
     color="#ec3750"
     manifest="/site.webmanifest"
     />
-  
     <Box as="header" sx={{ bg: 'sheet', color: 'text' }}>
       <Container sx={{ pt: 5, pb: [3, 4], textAlign: 'center' }}>
         <ColorSwitcher />
