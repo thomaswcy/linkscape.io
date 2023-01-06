@@ -76,7 +76,7 @@ const DocsPage = () => (
             WebkitTextStrokeWidth: '0.7px',
             WebkitTextFillColor: 'transparent',
           }}
-          variant="ultratitle"
+          variant='ultratitle'
         >
           Have a dream?
         </Heading>
@@ -86,7 +86,7 @@ const DocsPage = () => (
                           0px 0px 64.9800033569336px rgba(255, 71, 148, 0.9),
                           0px 0px 210.42999267578125px rgba(255, 71, 148, 0.8),
                           0px 0px 200.8599853515625px rgba(255, 71, 148, 0.7)`,
-            variant="ultratitle"
+            variant='ultratitle'
           }}
         >
           Make it real.
