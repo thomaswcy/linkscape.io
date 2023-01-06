@@ -66,7 +66,17 @@ const DocsPage = () => (
         </Grid>
       </Container>
     </Box>
-    <Container key="copy" variant="copy">
+    <Container 
+      key="wide" 
+      variant="wide"
+      sx={{
+        my: 3,
+        py: 3,
+        border: '2px dashed',
+        borderColor: 'border',
+        borderRadius: 'default'
+      }}
+     >
       <Heading variant="ultratitle">
         Have a dream?
       </Heading>
