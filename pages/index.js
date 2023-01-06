@@ -69,6 +69,8 @@ const DocsPage = () => (
     <Container sx={{ pt: 5, pb: [3, 4], textAlign: 'center' }}>
       <Heading variant="ultratitle">
         Have a dream?
+      </Heading>
+      <Heading variant="ultratitle">
         Make it real.
       </Heading>
     </Container>
