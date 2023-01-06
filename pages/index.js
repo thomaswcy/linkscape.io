@@ -34,6 +34,7 @@ const DocsPage = () => (
     color="#ec3750"
     manifest="/site.webmanifest"
     />
+  
     <Box as="header" sx={{ bg: 'sheet', color: 'text' }}>
       <Container sx={{ pt: 5, pb: [3, 4], textAlign: 'center' }}>
         <ColorSwitcher />
@@ -70,22 +71,25 @@ const DocsPage = () => (
     <Container>
       <Card>
         <Heading
+          as="div"
           sx={{
+            mb: [0, '-10px'],
             WebkitTextStroke: 'white',
             WebkitTextStrokeWidth: '0.7px',
             WebkitTextFillColor: 'transparent',
           }}
-          variant='ultratitle'
         >
           Have a dream?
         </Heading>
         <Heading
           sx={{
+            mb: 2,
             textShadow: `0px 0px 40.4900016784668px rgba(255, 71, 148, 1),
                           0px 0px 64.9800033569336px rgba(255, 71, 148, 0.9),
                           0px 0px 210.42999267578125px rgba(255, 71, 148, 0.8),
                           0px 0px 200.8599853515625px rgba(255, 71, 148, 0.7)`,
-            variant='ultratitle'
+            position: 'relative',
+            zIndex: '500',
           }}
         >
           Make it real.
