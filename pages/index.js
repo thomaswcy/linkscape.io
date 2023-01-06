@@ -66,7 +66,7 @@ const DocsPage = () => (
         </Grid>
       </Container>
     </Box>
-    <Container key="copy">
+    <Container key="copy" variant="copy">
       <Heading variant="ultratitle">
         Have a dream?
       </Heading>
