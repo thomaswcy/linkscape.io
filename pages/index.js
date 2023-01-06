@@ -66,24 +66,20 @@ const DocsPage = () => (
         </Grid>
       </Container>
     </Box>
-    <Container>
-      <Heading variant="headline">Containers</Heading>
-    </Container>
- <Grid gap={3} columns={[null, 2]} as="form" variant="cards.sunken">
-          <Label>
-            Full name
-            <Input placeholder="Zach Latta" />
-          </Label>
-          <Label>
-            How are you primarily associated with Hack Club?
+ <container>
+   <Grid gap={3} columns={[null, 2]} as="form" variant="cards.sunken">
+            <Label>
+              Full name
+            </Label>
+            <Label>
+            What School are you from?
             <Select>
               <option value="" disabled hidden>
                 Select one…
               </option>
-              <option value="club-leader">I lead a club</option>
-              <option value="club-member">I am a club member</option>
-              <option value="slack-member">I am active on Slack</option>
-              <option value="alum">I am a Hack Club alum</option>
+              <option value="international">I'm from a international school</option>
+              <option value="bilingual">I'm from a bilingual schiik</option>
+              <option value="public">I'm from a public school</option>
               <option value="none">None of the above</option>
             </Select>
           </Label>
@@ -103,7 +99,7 @@ const DocsPage = () => (
             </Label>
           </Flex>
           <Label>
-            Why do you want to come?
+            Why do you want to join LinkScape?
             <Textarea placeholder="Write a few sentences." />
           </Label>
           <Label>
@@ -113,10 +109,11 @@ const DocsPage = () => (
           <Button
             as="button"
             type="submit"
-            children="RSVP"
+            children="Submit"
             sx={{ gridColumn: [null, 'span 2'] }}
           />
         </Grid>
+  </container>
   </>
 )
 
