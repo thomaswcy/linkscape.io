@@ -75,7 +75,7 @@ const DocsPage = () => (
           sx={{
             fontSize: ['13vw', '7.4vw'],
             mb: [0, '-10px'],
-            WebkitTextStroke: 'white',
+            WebkitTextStroke: 'black',
             WebkitTextStrokeWidth: '0.7px',
             WebkitTextFillColor: 'transparent',
           }}
