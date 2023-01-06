@@ -84,7 +84,7 @@ const DocsPage = () => (
         <Heading
           as="div"
           sx={{
-            fontSize: ['13vw', '7.4vw'],
+            fontSize: '96px',
             mb: [0, '-10px'],
             WebkitTextStroke: 'black',
             WebkitTextStrokeWidth: '0.7px',
@@ -96,7 +96,7 @@ const DocsPage = () => (
         <Heading
           sx={{
             color: 'White',
-            fontSize: ['13vw', '7.4vw'],
+            fontSize: '96px',
             mb: 2,
             textShadow: `0px 0px 40.4900016784668px rgba(255, 71, 148, 1),
                           0px 0px 64.9800033569336px rgba(255, 71, 148, 0.9),
