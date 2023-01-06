@@ -66,10 +66,7 @@ const DocsPage = () => (
         </Grid>
       </Container>
     </Box>
-    <Container 
-      key="wide" 
-      variant="wide"
-     >
+    <Container>
       <Card>
         <Heading variant="ultratitle">
           Have a dream?
