@@ -56,8 +56,8 @@ const DocsPage = () => (
             a: { color: 'muted', transition: 'color .125s ease-in-out' }
           }}
         >
-          <NavLink href="https://github.com/LinkScapeFuundation">GitHub</NavLink>
-          <NavLink href="https://github.com/LinkScapeFuundation/LinkDown">
+          <NavLink href="https://github.com/LinkScapeFoundation">GitHub</NavLink>
+          <NavLink href="https://github.com/LinkScapeFoundation/LinkDown">
             LinkDown
           </NavLink>
           <NavLink href="https://hackclub.com">
@@ -66,6 +66,8 @@ const DocsPage = () => (
         </Grid>
       </Container>
     </Box>
+    <Container>
+    </Container>
     <Container>
       <Card>
         <Heading variant="ultratitle">
