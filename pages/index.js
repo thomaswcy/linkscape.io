@@ -66,11 +66,9 @@ const DocsPage = () => (
         </Grid>
       </Container>
     </Box>
-    <br />
-    <br />
     <Box
       sx={{
-        color: 'Darker',
+        color: 'White',
         lineHeight: 1.5,
         textAlign: 'left',
         margin: 'auto',
