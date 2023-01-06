@@ -88,7 +88,7 @@ const DocsPage = () => (
             mb: [0, '-10px'],
             WebkitTextStroke: 'black',
             WebkitTextStrokeWidth: '0.7px',
-            WebkitTextFillColor: 'transparent',
+            WebkitTextFillColor: 'White',
           }}
         >
           Have a dream?
