@@ -66,8 +66,8 @@ const DocsPage = () => (
         </Grid>
       </Container>
     </Box>
-    <container>
-      <Heading variant="ultratitle">
+     <Container sx={{ pt: 5, pb: [3, 4], textAlign: 'center' }}>
+       <Heading variant="ultratitle">
         Have a dream?
         Make it real.
       </Heading>
