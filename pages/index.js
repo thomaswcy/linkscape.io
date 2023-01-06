@@ -66,9 +66,8 @@ const DocsPage = () => (
         </Grid>
       </Container>
     </Box>
-    <Container>
-            
-    </Container>
+    <br />
+    <br />
     <Container>
       <Card>
         <Heading variant="ultratitle">
