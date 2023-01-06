@@ -71,11 +71,11 @@ const DocsPage = () => (
     <Container>
       <Box
         sx={{
-          color: 'white',
+          color: 'Black',
           lineHeight: 1.5,
           textAlign: 'left',
           margin: 'auto',
-          maxWidth: '800px',
+          maxWidth: '2000px',
           my: 5,
           px: 4,
           py: 3,
