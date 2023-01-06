@@ -71,6 +71,7 @@ const DocsPage = () => (
         Have a dream?
         Make it real.
       </component>
+    </container>
   </>
 )
 
