@@ -158,7 +158,7 @@ const DocsPage = () => (
             Thomas Wu
           </Heading>
           <text variant="subtitle">
-            Placeholder
+            Founder & CEO
           </text>
         </Container>
       </Card>
@@ -168,7 +168,7 @@ const DocsPage = () => (
             Meli Liu
           </Heading>
           <text variant="subtitle">
-            Placeholder
+            Founder & COO & CFO
           </text>
         </Container>
         </Card>
@@ -178,7 +178,7 @@ const DocsPage = () => (
             Jett Chen
           </Heading>
           <text variant="subtitle">
-            Placeholder
+            Co-founder & CTO
           </text>
         </Container>
       </Card>
