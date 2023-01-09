@@ -140,6 +140,14 @@ const DocsPage = () => (
         </Container>
       </Card>
     </Grid>
+    <Card>
+      <Container sx={{ pt: 5, pb: [3, 4], textAlign: 'center' }}>
+        <Heading as="h1" variant="title">
+          Founders
+        </Heading>
+      </Container>
+    </Card>
+              
     <Box as="footer" sx={{ bg: 'sheet', color: 'text' }}>
       <Container sx={{ pt: 5, pb: [3, 4], textAlign: 'center' }}>
         <ColorSwitcher />
