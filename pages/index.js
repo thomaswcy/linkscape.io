@@ -131,7 +131,7 @@ const DocsPage = () => (
         >
           <img alt="Hack Club Bank" src="https://bank.hackclub.com/brand/hcb-logo-original-light.svg" />
           <img alt="Vercel" src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" />
-          <img alt="1Password" src="https://gcore.jsdelivr.net/gh/thomaswcy/linkscape.io/1P-wordmark.svg" height='64' />
+          <img alt="1Password" src="https://gcore.jsdelivr.net/gh/thomaswcy/linkscape.io/1P-wordmark.svg" width='256' />
         </Grid>
       </Container>
     </Grid>
