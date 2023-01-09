@@ -76,38 +76,63 @@ const DocsPage = () => (
         my: 5,
         px: 4,
         py: 3,
-      }}
+      }}      
     >
+      <Heading
       <Grid gap={3} columns={[null, 2]}
+        as="div"
         <Container>
+        sx={{
         <Heading
+          fontSize: '96px',
           as="div"
+          mb: [0, '-10px'],
           sx={{
+          WebkitTextStroke: 'black',
             fontSize: '96px',
+          WebkitTextStrokeWidth: '0.7px',
             mb: [0, '-10px'],
+          WebkitTextFillColor: 'White',
             WebkitTextStroke: 'black',
+        }}
             WebkitTextStrokeWidth: '0.7px',
+      >
             WebkitTextFillColor: 'White',
+        Have a dream?
           }}
+      </Heading>
         >
+      <Heading
           Have a dream?
+        sx={{
         </Heading>
+          color: 'White',
         <Heading
+          fontSize: '96px',
           sx={{
+          mb: 2,
             color: 'White',
+          textShadow: `0px 0px 40.4900016784668px rgba(255, 71, 148, 1),
             fontSize: '96px',
+                        0px 0px 64.9800033569336px rgba(255, 71, 148, 0.9),
             mb: 2,
+                        0px 0px 210.42999267578125px rgba(255, 71, 148, 0.8),
             textShadow: `0px 0px 40.4900016784668px rgba(255, 71, 148, 1),
+                        0px 0px 200.8599853515625px rgba(255, 71, 148, 0.7)`,
                          0px 0px 64.9800033569336px rgba(255, 71, 148, 0.9),
+          position: 'relative',
                          0px 0px 210.42999267578125px rgba(255, 71, 148, 0.8),
+          zIndex: '500',
                          0px 0px 200.8599853515625px rgba(255, 71, 148, 0.7)`,
+        }}
             position: 'relative',
+      >
             zIndex: '500',
+        Make it real.
           }}
+      </Heading>
         >
-          Make it real.
-        </Heading>
-      </Box>
+    </Box>
     <footer align="center">
       <Container sx={{ textAlign: 'center' }}>
         <a href="https://vercel.com/?utm_source=linkscape&utm_campaign=oss" align="center">
