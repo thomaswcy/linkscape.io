@@ -118,7 +118,7 @@ const DocsPage = () => (
         </Heading>
         <br />
         <Grid
-          gaps={2}
+          gaps={0}
           columns = "auto auto"
         >
           <img alt="Hack Club Bank" src="https://bank.hackclub.com/brand/hcb-logo-original-light.svg" />
