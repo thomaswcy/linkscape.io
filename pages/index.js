@@ -74,7 +74,7 @@ const DocsPage = () => (
         sx={{
           color: 'White',
           lineHeight: 1.5,
-          textAlign: 'center',
+          textAlign: 'left',
           margin: 'auto',
           maxWidth: '1600px',
           my: 5,
@@ -111,6 +111,8 @@ const DocsPage = () => (
         </Heading>
       </Box>
       <Container sx={{ textAlign: 'center' }}>
+        <br />
+        <br />
         <Heading as="h1" variant="title">
           Sponsors
         </Heading>
