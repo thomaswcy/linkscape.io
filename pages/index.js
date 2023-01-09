@@ -154,28 +154,34 @@ const DocsPage = () => (
         }}
         >
       <Card>
-        <Heading as="h2" variant="headline">
-          Thomas Wu
-        </Heading>
-        <text>
-          Placeholder
-        </text>
+        <Container>
+          <Heading as="h2" variant="headline">
+            Thomas Wu
+          </Heading>
+          <text>
+            Placeholder
+          </text>
+        </Container>
       </Card>
       <Card>
-        <Heading as="h2" variant="headline">
-          Meli Liu
-        </Heading>
-        <text>
-          Placeholder
-        </text>
-      </Card>
+        <Container>              
+          <Heading as="h2" variant="headline">
+            Meli Liu
+          </Heading>
+          <text>
+            Placeholder
+          </text>
+        </Container>
+        </Card>
       <Card>
-        <Heading as="h2" variant="headline">
-          Jett Chen
-        </Heading>
-        <text>
-          Placeholder
-        </text>
+        <Container>             
+          <Heading as="h2" variant="headline">
+            Jett Chen
+          </Heading>
+          <text>
+            Placeholder
+          </text>
+        </Container>
       </Card>
     </Grid>       
     <Box as="footer" sx={{ bg: 'sheet', color: 'text' }}>
