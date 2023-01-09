@@ -120,6 +120,14 @@ const DocsPage = () => (
         <Grid
           gaps={0}
           columns = "auto auto"
+          sx={{
+            alignItems: 'center',
+            justifyContent: 'center',
+            fontSize: 6,
+            mt: 3,
+            mb: 4,
+            a: { color: 'muted', transition: 'color .125s ease-in-out' }
+          }}
         >
           <img alt="Hack Club Bank" src="https://bank.hackclub.com/brand/hcb-logo-original-light.svg" />
           <img alt="Vercel" src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" />
