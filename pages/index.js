@@ -116,7 +116,7 @@ const DocsPage = () => (
         <Heading as="h1" variant="title">
           Sponsors
         </Heading>
-        <img alt="Hack Club Bank" src="https://bank.hackclub.com/brand/hcb-logo-original-light.svg"
+        <img alt="Hack Club Bank" src="https://bank.hackclub.com/brand/hcb-logo-original-light.svg" />
       </Container>
     </Grid>
     <footer align="center">
