@@ -77,35 +77,37 @@ const DocsPage = () => (
         px: 4,
         py: 3,
       }}
-    >        
-      <Heading
-        as="div"
-        sx={{
-          fontSize: '96px',
-          mb: [0, '-10px'],
-          WebkitTextStroke: 'black',
-          WebkitTextStrokeWidth: '0.7px',
-          WebkitTextFillColor: 'White',
-        }}
-      >
-        Have a dream?
-      </Heading>
-      <Heading
-        sx={{
-          color: 'White',
-          fontSize: '96px',
-          mb: 2,
-          textShadow: `0px 0px 40.4900016784668px rgba(255, 71, 148, 1),
-                        0px 0px 64.9800033569336px rgba(255, 71, 148, 0.9),
-                        0px 0px 210.42999267578125px rgba(255, 71, 148, 0.8),
-                        0px 0px 200.8599853515625px rgba(255, 71, 148, 0.7)`,
-          position: 'relative',
-          zIndex: '500',
-        }}
-      >
-        Make it real.
-      </Heading>
-    </Box>
+    >
+      <Grid gap={3} columns={[null, 2]}
+        <Container>
+        <Heading
+          as="div"
+          sx={{
+            fontSize: '96px',
+            mb: [0, '-10px'],
+            WebkitTextStroke: 'black',
+            WebkitTextStrokeWidth: '0.7px',
+            WebkitTextFillColor: 'White',
+          }}
+        >
+          Have a dream?
+        </Heading>
+        <Heading
+          sx={{
+            color: 'White',
+            fontSize: '96px',
+            mb: 2,
+            textShadow: `0px 0px 40.4900016784668px rgba(255, 71, 148, 1),
+                         0px 0px 64.9800033569336px rgba(255, 71, 148, 0.9),
+                         0px 0px 210.42999267578125px rgba(255, 71, 148, 0.8),
+                         0px 0px 200.8599853515625px rgba(255, 71, 148, 0.7)`,
+            position: 'relative',
+            zIndex: '500',
+          }}
+        >
+          Make it real.
+        </Heading>
+      </Box>
     <footer align="center">
       <Container sx={{ textAlign: 'center' }}>
         <a href="https://vercel.com/?utm_source=linkscape&utm_campaign=oss" align="center">
