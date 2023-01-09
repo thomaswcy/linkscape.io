@@ -74,7 +74,7 @@ const DocsPage = () => (
         sx={{
           color: 'White',
           lineHeight: 1.5,
-          textAlign: 'left',
+          textAlign: 'center',
           margin: 'auto',
           maxWidth: '1600px',
           my: 5,
