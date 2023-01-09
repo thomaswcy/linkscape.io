@@ -144,7 +144,7 @@ const DocsPage = () => (
     <Container key="wide" variant="wide">
       <Grid
             gaps={2}
-            columns = "auto auto auto"
+            columns = "auto auto"
             sx={{
               alignItems: 'center',
               justifyContent: 'center',
