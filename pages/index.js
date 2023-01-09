@@ -121,8 +121,9 @@ const DocsPage = () => (
           gaps={2}
           columns = "auto auto"
         >
-        <img alt="Hack Club Bank" src="https://bank.hackclub.com/brand/hcb-logo-original-light.svg" />
-        <img alt="Vercel" src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" />
+          <img alt="Hack Club Bank" src="https://bank.hackclub.com/brand/hcb-logo-original-light.svg" />
+          <img alt="Vercel" src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" />
+        </Grid>
       </Container>
     </Grid>
     <footer>
