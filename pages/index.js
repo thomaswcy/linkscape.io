@@ -154,7 +154,6 @@ const DocsPage = () => (
               a: { color: 'muted', transition: 'color .125s ease-in-out' }
             }}
           >
-          >
         <Card>
           <Heading as="h2" variant="headline">
             Thomas Wu
