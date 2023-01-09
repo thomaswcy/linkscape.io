@@ -1,4 +1,5 @@
 import {
+  Avatar,
   BaseStyles,
   Badge,
   Box,
@@ -160,6 +161,7 @@ const DocsPage = () => (
           <text variant="subtitle">
             Founder & CEO
           </text>
+          <Avatar src="https://avatars.githubusercontent.com/u/62056970" />
         </Container>
       </Card>
       <Card>
