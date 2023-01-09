@@ -108,7 +108,7 @@ const DocsPage = () => (
     </Box>
     <footer>
       <a href="https://vercel.com/?utm_source=linkscape&utm_campaign=oss">
-        <img alt="Vercel" src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" />
+        <img align="center" alt="Vercel" src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" />
       </a>
     </footer>
   </>
