@@ -57,11 +57,11 @@ const DocsPage = () => (
           }}
         >
           <NavLink href="https://github.com/LinkScapeFoundation">GitHub</NavLink>
-          <NavLink href="https://github.com/LinkScapeFoundation/LinkDown">
-            LinkDown
+          <NavLink href="https://bank.hackclub.com/donations/start/linkscape">
+            Donate
           </NavLink>
           <NavLink href="https://hackclub.com">
-            HackClub
+            Hack Club
           </NavLink>
         </Grid>
       </Container>
