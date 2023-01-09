@@ -137,9 +137,9 @@ const DocsPage = () => (
             <img alt="1Password" src="https://gcore.jsdelivr.net/gh/thomaswcy/linkscape.io/1P-wordmark.svg" width='256' />
             <img alt="StickerMule" src="https://gcore.jsdelivr.net/gh/thomaswcy/linkscape.io@main/sticker-mule-logo-light-bg.svg" width="256" />
           
-          </Grid>
+          </Card>
         </Container>
-      </Card>
+      </Grid>
     <Box as="footer" sx={{ bg: 'sheet', color: 'text' }}>
       <Container sx={{ pt: 5, pb: [3, 4], textAlign: 'center' }}>
         <ColorSwitcher />
