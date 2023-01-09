@@ -178,8 +178,7 @@ const DocsPage = () => (
             Placeholder
           </text>
         </Card>
-
-            
+      </Grid>       
     </Container>        
     <Box as="footer" sx={{ bg: 'sheet', color: 'text' }}>
       <Container sx={{ pt: 5, pb: [3, 4], textAlign: 'center' }}>
