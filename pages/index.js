@@ -166,7 +166,7 @@ const DocsPage = () => (
       </Card>
       <Card>
         <Container>
-          <Avatar src="https://gcore.jsdelivr.net/gh/thomaswcy/linkscape.io/MeliLiu-Avatar.png" />
+          <Avatar src="https://gcore.jsdelivr.net/gh/thomaswcy/linkscape.io@main/MeliLiu-Avatar.png" />
           <Heading as="h2" variant="headline">
             Meli Liu
           </Heading>
