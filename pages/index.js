@@ -155,13 +155,13 @@ const DocsPage = () => (
         >
       <Card>
         <Container>
+          <Avatar src="https://avatars.githubusercontent.com/u/62056970" />
           <Heading as="h2" variant="headline">
             Thomas Wu
           </Heading>
           <text variant="subtitle">
             Founder & CEO
           </text>
-          <Avatar src="https://avatars.githubusercontent.com/u/62056970" />
         </Container>
       </Card>
       <Card>
