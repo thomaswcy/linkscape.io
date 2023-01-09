@@ -141,25 +141,45 @@ const DocsPage = () => (
       </Card>
     </Grid>
     <br />
-    <Container>
-      <Card>
-        <Container sx={{ pt: 5, pb: [3, 4], textAlign: 'center' }}>
-          <Heading as="h1" variant="title">
-            Founders
-          </Heading>
-        </Container>
-        <Container>
+    <Container key="wide" variant="wide">
+      <Grid
+            gaps={2}
+            columns = "auto auto auto"
+            sx={{
+              alignItems: 'center',
+              justifyContent: 'center',
+              fontSize: 6,
+              mt: 3,
+              mb: 4,
+              a: { color: 'muted', transition: 'color .125s ease-in-out' }
+            }}
+          >
+        <Card>
           <Heading as="h2" variant="headline">
             Thomas Wu
           </Heading>
+          <text>
+            Placeholder
+          </text>
+        </Card>
+        <Card>
           <Heading as="h2" variant="headline">
             Meli Liu
           </Heading>
+          <text>
+            Placeholder
+          </text>
+        </Card>
+        <Card>
           <Heading as="h2" variant="headline">
-            Jett chen
+            Jett Chen
           </Heading>
-        </Container>
-      </Card>
+          <text>
+            Placeholder
+          </text>
+        </Card>
+
+            
     </Container>        
     <Box as="footer" sx={{ bg: 'sheet', color: 'text' }}>
       <Container sx={{ pt: 5, pb: [3, 4], textAlign: 'center' }}>
