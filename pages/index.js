@@ -165,7 +165,8 @@ const DocsPage = () => (
         </Container>
       </Card>
       <Card>
-        <Container>              
+        <Container>
+          <Avatar src="https://gcore.jsdelivr.net/gh/thomaswcy/linkscape.io/MeliLiu-Avatar.png" />
           <Heading as="h2" variant="headline">
             Meli Liu
           </Heading>
@@ -175,7 +176,8 @@ const DocsPage = () => (
         </Container>
         </Card>
       <Card>
-        <Container>             
+        <Container>
+          <Avatar src="https://avatars.githubusercontent.com/u/45888395" />
           <Heading as="h2" variant="headline">
             Jett Chen
           </Heading>
