@@ -117,13 +117,18 @@ const DocsPage = () => (
           Sponsors
         </Heading>
         <br />
+        <Grid
+          gaps={2}
+          columns = "auto auto"
+        >
         <img alt="Hack Club Bank" src="https://bank.hackclub.com/brand/hcb-logo-original-light.svg" />
+        <img alt="Vercel" src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" />
       </Container>
     </Grid>
-    <footer align="center">
+    <footer>
       <Container sx={{ textAlign: 'center' }}>
-        <a href="https://vercel.com/?utm_source=linkscape&utm_campaign=oss" align="center">
-          <img align="center" alt="Vercel" src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" />
+        <a href="https://vercel.com/?utm_source=linkscape&utm_campaign=oss">
+          <img alt="Vercel" src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" />
         </a>
       </Container>
     </footer>
