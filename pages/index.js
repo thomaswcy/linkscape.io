@@ -110,9 +110,11 @@ const DocsPage = () => (
           Make it real.
         </Heading>
       </Box>
-      <Heading as="h1" variant="title">
-        Sponsors
-      </Heading>
+      <Container sx={{ textAlign: 'center' }}>
+        <Heading as="h1" variant="title">
+          Sponsors
+        </Heading>
+      </Container>
     </Grid>
     <footer align="center">
       <Container sx={{ textAlign: 'center' }}>
