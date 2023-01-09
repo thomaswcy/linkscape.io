@@ -116,6 +116,7 @@ const DocsPage = () => (
         <Heading as="h1" variant="title">
           Sponsors
         </Heading>
+        <br />
         <img alt="Hack Club Bank" src="https://bank.hackclub.com/brand/hcb-logo-original-light.svg" />
       </Container>
     </Grid>
