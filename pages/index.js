@@ -145,9 +145,9 @@ const DocsPage = () => (
           </a>
       <text>
        LinkScape is a 501(c)(3) non-profit organization.
-    </Box>
+      </text>
       </Container>
-    </footer>
+    </Box>
   </>
 )
 
