@@ -140,11 +140,21 @@ const DocsPage = () => (
         </Container>
       </Card>
     </Grid>
+    <br />
     <Card>
       <Container sx={{ pt: 5, pb: [3, 4], textAlign: 'center' }}>
         <Heading as="h1" variant="title">
           Founders
         </Heading>
+        <text>
+          Thomas Wu
+        </text>
+        <text>
+          Meli Liu
+        </text>
+        <text>
+          Jett chen
+        </text>
       </Container>
     </Card>
               
