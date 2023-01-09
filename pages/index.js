@@ -141,45 +141,43 @@ const DocsPage = () => (
       </Card>
     </Grid>
     <br />
-    <Container key="wide" variant="wide">
-      <Grid
-            gaps={0}
-            columns = "auto auto"
-            sx={{
-              alignItems: 'center',
-              justifyContent: 'center',
-              fontSize: 6,
-              mt: 3,
-              mb: 4,
-              a: { color: 'muted', transition: 'color .125s ease-in-out' }
-            }}
-          >
-        <Card>
-          <Heading as="h2" variant="headline">
-            Thomas Wu
-          </Heading>
-          <text>
-            Placeholder
-          </text>
-        </Card>
-        <Card>
-          <Heading as="h2" variant="headline">
-            Meli Liu
-          </Heading>
-          <text>
-            Placeholder
-          </text>
-        </Card>
-        <Card>
-          <Heading as="h2" variant="headline">
-            Jett Chen
-          </Heading>
-          <text>
-            Placeholder
-          </text>
-        </Card>
-      </Grid>       
-    </Container>        
+    <Grid
+          gaps={0}
+          columns = "auto auto auto"
+          sx={{
+            alignItems: 'center',
+            justifyContent: 'center',
+            fontSize: 6,
+            mt: 3,
+            mb: 4,
+            a: { color: 'muted', transition: 'color .125s ease-in-out' }
+        }}
+        >
+      <Card>
+        <Heading as="h2" variant="headline">
+          Thomas Wu
+        </Heading>
+        <text>
+          Placeholder
+        </text>
+      </Card>
+      <Card>
+        <Heading as="h2" variant="headline">
+          Meli Liu
+        </Heading>
+        <text>
+          Placeholder
+        </text>
+      </Card>
+      <Card>
+        <Heading as="h2" variant="headline">
+          Jett Chen
+        </Heading>
+        <text>
+          Placeholder
+        </text>
+      </Card>
+    </Grid>       
     <Box as="footer" sx={{ bg: 'sheet', color: 'text' }}>
       <Container sx={{ pt: 5, pb: [3, 4], textAlign: 'center' }}>
         <ColorSwitcher />
