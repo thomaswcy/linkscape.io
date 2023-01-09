@@ -158,9 +158,9 @@ const DocsPage = () => (
           <Heading as="h2" variant="headline">
             Thomas Wu
           </Heading>
-          <text>
+          <p>
             Placeholder
-          </text>
+          </p>
         </Container>
       </Card>
       <Card>
@@ -168,9 +168,9 @@ const DocsPage = () => (
           <Heading as="h2" variant="headline">
             Meli Liu
           </Heading>
-          <text>
+          <p>
             Placeholder
-          </text>
+          </p>
         </Container>
         </Card>
       <Card>
@@ -178,9 +178,9 @@ const DocsPage = () => (
           <Heading as="h2" variant="headline">
             Jett Chen
           </Heading>
-          <text>
+          <p>
             Placeholder
-          </text>
+          </p>
         </Container>
       </Card>
     </Grid>       
