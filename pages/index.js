@@ -110,9 +110,9 @@ const DocsPage = () => (
           Make it real.
         </Heading>
       </Box>
-      <Heading as="h1" variant="title">
-        Sponsors
-      </Heading>
+    <Heading as="h1" variant="title">
+      Sponsors
+    </Heading>
     <footer align="center">
       <Container sx={{ textAlign: 'center' }}>
         <a href="https://vercel.com/?utm_source=linkscape&utm_campaign=oss" align="center">
