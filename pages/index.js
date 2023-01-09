@@ -148,15 +148,13 @@ const DocsPage = () => (
         </Heading>
       </Container>
       <Container>
-        <Heading as="h2" variant="subtitle">
+        <Heading as="h2" variant="headline">
           Thomas Wu
-        <br />
         </Heading>
-        <Heading as="h2" variant="subtitle">
+        <Heading as="h2" variant="headline">
           Meli Liu
         </Heading>
-        <br />
-        <Heading as="h2" variant="subtitle">
+        <Heading as="h2" variant="headline">
           Jett chen
         </Heading>
       </Container>
