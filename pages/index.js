@@ -143,8 +143,9 @@ const DocsPage = () => (
           <a href="https://vercel.com/?utm_source=linkscape&utm_campaign=oss">
             <img alt="Vercel" src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" />
           </a>
+      <br />
       <text>
-       LinkScape is a 501(c)(3) non-profit organization.
+        © 2023 LinkScape. 501(c)(3) nonprofit (EIN: 81-2908499)
       </text>
       </Container>
     </Box>
