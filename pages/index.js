@@ -106,8 +106,8 @@ const DocsPage = () => (
         Make it real.
       </Heading>
     </Box>
-    <footer>
-      <a href="https://vercel.com/?utm_source=linkscape&utm_campaign=oss">
+    <footer align="center">
+      <a href="https://vercel.com/?utm_source=linkscape&utm_campaign=oss" align="center">
         <img align="center" alt="Vercel" src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" />
       </a>
     </footer>
