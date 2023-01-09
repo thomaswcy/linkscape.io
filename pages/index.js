@@ -143,12 +143,17 @@ const DocsPage = () => (
     <br />
     <Container key="wide" variant="wide">
       <Grid
-            gaps={2}
+            gaps={0}
             columns = "auto auto"
             sx={{
               alignItems: 'center',
               justifyContent: 'center',
+              fontSize: 6,
+              mt: 3,
+              mb: 4,
+              a: { color: 'muted', transition: 'color .125s ease-in-out' }
             }}
+          >
           >
         <Card>
           <Heading as="h2" variant="headline">
