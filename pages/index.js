@@ -93,8 +93,8 @@ const DocsPage = () => (
 	        id="submit"
                 sx={{ gridColumn: [null, 'span 2'] }}
               />
+           </Grid>
 	  </Container>
-         </Grid>
         </Box>
       </Card>
       <Card>
