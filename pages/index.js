@@ -80,7 +80,7 @@ const DocsPage = () => (
 	    <Label for="email">Email
 	      <Input type="email" name="email" id="email"/>
      	    </Label>
-	    <Input type="text" name="hp" id="hp" hidden/>
+	    <Input hidden type="text" name="hp" id="hp"/>
 	    <Input type="hidden" name="list" value="1AaBEdR4lS7PwHFOfEzGtQ"/>
 	    <Input type="hidden" name="subform" value="yes"/>
 	    <Button
