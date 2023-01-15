@@ -74,22 +74,16 @@ const DocsPage = () => (
       <Card>
         <Box>        
           <Grid gap={3} columns={[null, 2]} as="form" variant="cards.sunken" action="https://postal.hackclub.com/subscribe" method="POST" accept-charset="utf-8">
-	    <label for="name">Name</label><br/>
-	    <input type="text" name="name" id="name"/>
-	    <br/>
-	    <label for="email">Email</label><br/>
-	    <input type="email" name="email" id="email"/><br/><br/>
-          <input type="checkbox" name="gdpr" id="gdpr"/>
-          <span><strong>Marketing permission</strong>: I give my consent to LinkScape Foundation to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.</span>
-          <br/><br/>
-          <span><strong>What to expect</strong>: If you wish to withdraw your consent and stop hearing from us, simply click the unsubscribe link at the bottom of every email we send or contact us at thomaswcy@hotmail.com. We value and respect your personal data and privacy. To view our privacy policy, please visit our website. By submitting this form, you agree that we may process your information in accordance with these terms.</span>
-          <br/><br/><div style="display:none;">
-	    <label for="hp">HP</label><br/>
- 	    </div>
-	    <input type="text" name="hp" id="hp"/>
-	    <input type="hidden" name="list" value="1AaBEdR4lS7PwHFOfEzGtQ"/>
-	    <input type="hidden" name="subform" value="yes"/>
-	    <input type="submit" name="submit" id="submit"/>
+	    <Label for="name">Name
+	      <Input type="text" name="name" id="name"/>
+	    </Label>
+	    <Label for="email">Email
+	      <Input type="email" name="email" id="email"/>
+     	    </Label>
+	    <Input type="text" name="hp" id="hp"/>
+	    <Input type="hidden" name="list" value="1AaBEdR4lS7PwHFOfEzGtQ"/>
+	    <Input type="hidden" name="subform" value="yes"/>
+	    <Input type="submit" name="submit" id="submit"/>
          </Grid>
         </Box>
       </Card>
