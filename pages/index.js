@@ -86,7 +86,6 @@ const DocsPage = () => (
           <br/><br/><div style="display:none;">
 	    <label for="hp">HP</label><br/>
 	    <input type="text" name="hp" id="hp"/>
-	    </div>
 	    <input type="hidden" name="list" value="1AaBEdR4lS7PwHFOfEzGtQ"/>
 	    <input type="hidden" name="subform" value="yes"/>
 	    <input type="submit" name="submit" id="submit"/>
