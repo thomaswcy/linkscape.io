@@ -73,7 +73,7 @@ const DocsPage = () => (
     >
       <Card>
         <Box>
-	  <Container key"narrow" variant="narrow" sx={{ textAlign: 'center' }}>
+	  <Container variant="narrow" sx={{ textAlign: 'center' }}>
 	    <Heading variant="headline">Newsletter</Heading>
             <Grid gap={3} columns={[null, 2]} as="form" variant="cards.sunken" action="https://postal.hackclub.com/subscribe" method="POST" accept-charset="utf-8">
 	      <Label for="name">Name
