@@ -72,45 +72,25 @@ const DocsPage = () => (
       columns = "auto auto"
     >
       <Card>
-        <Box
-          sx={{
-            color: 'White',
-            lineHeight: 1.5,
-            textAlign: 'left',
-            margin: 'auto',
-            maxWidth: '1600px',
-            my: 5,
-            px: 4,
-            py: 3,
-          }}
-        >        
-          <Heading
-            as="div"
-            sx={{
-              fontSize: '96px',
-              mb: [0, '-10px'],
-              WebkitTextStroke: 'black',
-              WebkitTextStrokeWidth: '0.7px',
-              WebkitTextFillColor: 'White',
-            }}
-          >
-            Have a dream?
-          </Heading>
-          <Heading
-            sx={{
-              color: 'White',
-             fontSize: '96px',
-              mb: 2,
-              textShadow: `0px 0px 40.4900016784668px rgba(255, 71, 148, 1),
-                            0px 0px 64.9800033569336px rgba(255, 71, 148, 0.9),
-                            0px 0px 210.42999267578125px rgba(255, 71, 148, 0.8),
-                            0px 0px 200.8599853515625px rgba(255, 71, 148, 0.7)`,
-              position: 'relative',
-              zIndex: '500',
-            }}
-          >
-            Make it real.
-          </Heading>
+        <Box>        
+          <form action="https://postal.hackclub.com/subscribe" method="POST" accept-charset="utf-8">
+	              <label for="name">Name</label><br/>
+	              <input type="text" name="name" id="name"/>
+	              <br/>
+	              <label for="email">Email</label><br/>
+	              <input type="email" name="email" id="email"/><br/><br/>
+          <input type="checkbox" name="gdpr" id="gdpr"/>
+          <span><strong>Marketing permission</strong>: I give my consent to LinkScape Foundation to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.</span>
+          <br/><br/>
+          <span><strong>What to expect</strong>: If you wish to withdraw your consent and stop hearing from us, simply click the unsubscribe link at the bottom of every email we send or contact us at thomaswcy@hotmail.com. We value and respect your personal data and privacy. To view our privacy policy, please visit our website. By submitting this form, you agree that we may process your information in accordance with these terms.</span>
+          <br/><br/><div style="display:none;">
+	              <label for="hp">HP</label><br/>
+	              <input type="text" name="hp" id="hp"/>
+	              </div>
+	              <input type="hidden" name="list" value="1AaBEdR4lS7PwHFOfEzGtQ"/>
+	              <input type="hidden" name="subform" value="yes"/>
+	              <input type="submit" name="submit" id="submit"/>
+         </form>
         </Box>
       </Card>
       <Card>
