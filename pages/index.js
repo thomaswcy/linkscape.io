@@ -73,7 +73,7 @@ const DocsPage = () => (
     >
       <Card>
         <Box>        
-          <form action="https://postal.hackclub.com/subscribe" method="POST" accept-charset="utf-8">
+          <Grid gap={3} columns={[null, 2]} as="form" variant="cards.sunken" action="https://postal.hackclub.com/subscribe" method="POST" accept-charset="utf-8">
 	    <label for="name">Name</label><br/>
 	    <input type="text" name="name" id="name"/>
 	    <br/>
@@ -85,11 +85,12 @@ const DocsPage = () => (
           <span><strong>What to expect</strong>: If you wish to withdraw your consent and stop hearing from us, simply click the unsubscribe link at the bottom of every email we send or contact us at thomaswcy@hotmail.com. We value and respect your personal data and privacy. To view our privacy policy, please visit our website. By submitting this form, you agree that we may process your information in accordance with these terms.</span>
           <br/><br/><div style="display:none;">
 	    <label for="hp">HP</label><br/>
+ 	    </div>
 	    <input type="text" name="hp" id="hp"/>
 	    <input type="hidden" name="list" value="1AaBEdR4lS7PwHFOfEzGtQ"/>
 	    <input type="hidden" name="subform" value="yes"/>
 	    <input type="submit" name="submit" id="submit"/>
-         </form>
+         </Grid>
         </Box>
       </Card>
       <Card>
