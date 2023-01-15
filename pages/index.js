@@ -73,7 +73,9 @@ const DocsPage = () => (
     >
       <Card>
         <Box>
-	  <Heading variant="headline">Newsletter</Heading>
+	  <Container sx={{ textAlign: 'center' }}>
+	    <Heading variant="headline">Newsletter</Heading>
+	  </Container>
           <Grid gap={3} columns={[null, 2]} as="form" variant="cards.sunken" action="https://postal.hackclub.com/subscribe" method="POST" accept-charset="utf-8">
 	    <Label for="name">Name
 	      <Input type="text" name="name" id="name"/>
@@ -97,9 +99,7 @@ const DocsPage = () => (
       </Card>
       <Card>
         <Container sx={{ textAlign: 'center' }}>
-          <br />
-          <br />
-          <Heading as="h1" variant="title">
+          <Heading variant="headline">
             Sponsors
           </Heading>
           <br />
