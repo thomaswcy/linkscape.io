@@ -80,10 +80,16 @@ const DocsPage = () => (
 	    <Label for="email">Email
 	      <Input type="email" name="email" id="email"/>
      	    </Label>
+	    <option name="gpdr" id="gpdr">GPDR</option>
 	    <Input type="text" name="hp" id="hp"/>
 	    <Input type="hidden" name="list" value="1AaBEdR4lS7PwHFOfEzGtQ"/>
 	    <Input type="hidden" name="subform" value="yes"/>
 	    <Input type="submit" name="submit" id="submit"/>
+	    <Button
+              as="button"
+              type="submit"
+              sx={{ gridColumn: [null, 'span 2'] }}
+            />
          </Grid>
         </Box>
       </Card>
