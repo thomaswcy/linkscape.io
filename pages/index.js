@@ -131,8 +131,7 @@ const DocsPage = () => (
           sx={{
             alignItems: 'center',
             justifyContent: 'center',
-            mt: 3,
-            mb: 4,
+
             a: { color: 'muted', transition: 'color .125s ease-in-out' }
         }}
         >
