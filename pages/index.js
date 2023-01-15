@@ -127,6 +127,8 @@ const DocsPage = () => (
     <br />
     <Grid
           gaps={0}
+	  mt: 3,
+	  mb: 4,
           columns = "auto auto auto"
           sx={{
             alignItems: 'center',
