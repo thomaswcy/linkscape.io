@@ -75,25 +75,25 @@ const DocsPage = () => (
         <Box>
 	  <Container sx={{ textAlign: 'center' }}>
 	    <Heading variant="headline">Newsletter</Heading>
+            <Grid gap={3} columns={[null, 2]} as="form" variant="cards.sunken" action="https://postal.hackclub.com/subscribe" method="POST" accept-charset="utf-8">
+	      <Label for="name">Name
+	        <Input type="text" name="name" id="name"/>
+	      </Label>
+	      <Label for="email">Email
+	        <Input type="email" name="email" id="email"/>
+     	      </Label>
+	      <Input hidden type="text" type="hidden" name="hp" id="hp"/>
+	      <Input type="hidden" name="list" value="1AaBEdR4lS7PwHFOfEzGtQ"/>
+	      <Input type="hidden" name="subform" value="yes"/>
+	      <Button
+                as="button"
+	        children="Subscribe"
+                type="submit"
+	        name="submit"
+	        id="submit"
+                sx={{ gridColumn: [null, 'span 2'] }}
+              />
 	  </Container>
-          <Grid gap={3} columns={[null, 2]} as="form" variant="cards.sunken" action="https://postal.hackclub.com/subscribe" method="POST" accept-charset="utf-8">
-	    <Label for="name">Name
-	      <Input type="text" name="name" id="name"/>
-	    </Label>
-	    <Label for="email">Email
-	      <Input type="email" name="email" id="email"/>
-     	    </Label>
-	    <Input hidden type="text" type="hidden" name="hp" id="hp"/>
-	    <Input type="hidden" name="list" value="1AaBEdR4lS7PwHFOfEzGtQ"/>
-	    <Input type="hidden" name="subform" value="yes"/>
-	    <Button
-              as="button"
-	      children="Subscribe"
-              type="submit"
-	      name="submit"
-	      id="submit"
-              sx={{ gridColumn: [null, 'span 2'] }}
-            />
          </Grid>
         </Box>
       </Card>
