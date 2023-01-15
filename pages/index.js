@@ -181,6 +181,7 @@ const DocsPage = () => (
       <text>
         © 2023 LinkScape. 501(c)(3) nonprofit (EIN: 81-2908499)
       </text>
+
       </Container>
     </Box>
   </>
