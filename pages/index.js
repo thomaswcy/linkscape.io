@@ -23,7 +23,6 @@ import {
 import Head from 'next/head'
 import theme from '@hackclub/theme'
 import Meta from '@hackclub/meta'
-import ColorSwitcher from '../components/color-switcher'
 
 const DocsPage = () => (
   <>
