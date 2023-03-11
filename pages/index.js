@@ -38,7 +38,6 @@ const DocsPage = () => (
   
     <Box as="header" sx={{ bg: 'sheet', color: 'text' }}>
       <Container sx={{ pt: 5, pb: [3, 4], textAlign: 'center' }}>
-        <ColorSwitcher />
         <Heading as="h1" variant="title" color="red">
           LinkScape
         </Heading>
