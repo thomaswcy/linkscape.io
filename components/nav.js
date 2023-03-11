@@ -219,16 +219,12 @@ function Header({ unfixed, color, bgColor, dark, fixed, ...props }) {
       as="header"
     >
       <Content>
-        <Flag scrolled={scrolled || fixed} />
         <Navigation
           as="nav"
           aria-hidden={!!mobile}
           color={baseColor}
           dark={dark}
         />
-        <ToggleContainer color={toggleColor} onClick={handleToggleMenu}>
-          <Icon glyph={toggled ? 'view-close' : 'menu'} />
-        </ToggleContainer>
       </Content>
       <Navigation
         as="nav"
