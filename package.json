@@ -1,7 +1,7 @@
 {
-  "name": "@hackclub/theme-starter",
+  "name": "@linkscape/site",
   "version": "0.0.1",
-  "author": "Lachlan Campbell <lachlan@hackclub.com>",
+  "author": "Thomas Wu <thomas@linkscape.app>",
   "license": "MIT",
   "private": true,
   "scripts": {
