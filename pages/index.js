@@ -35,6 +35,9 @@ const DocsPage = () => (
     manifest="/site.webmanifest"
     />
     <Container variant="wide">
+	    <br />
+	    <br />
+	    <br />
 	    <Grid
 	      gaps={4}
 	      columns = "auto auto"
