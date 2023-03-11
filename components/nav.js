@@ -3,7 +3,6 @@ import styled from '@emotion/styled'
 import { css, keyframes } from '@emotion/react'
 import { Box, Container, Flex, Link, Text } from 'theme-ui'
 import theme from '@hackclub/theme'
-import ScrollLock from 'react-scrolllock'
 import NextLink from 'next/link'
 
 const rgbaBgColor = (props, opacity) =>
