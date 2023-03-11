@@ -34,37 +34,6 @@ const DocsPage = () => (
     color="#ec3750"
     manifest="/site.webmanifest"
     />
-  
-    <Box as="header" sx={{ bg: 'sheet', color: 'text' }}>
-      <Container sx={{ pt: 5, pb: [3, 4], textAlign: 'center' }}>
-        <Heading as="h1" variant="title" color="red">
-          LinkScape
-        </Heading>
-        <Text as="p" variant="subtitle" mt={3}>
-          A non-profit organization which works for the future of open-source software
-        </Text>
-        <Grid
-          gap={4}
-          columns="auto auto auto"
-          sx={{
-            alignItems: 'center',
-            justifyContent: 'center',
-            fontSize: 2,
-            mt: 3,
-            mb: 4,
-            a: { color: 'muted', transition: 'color .125s ease-in-out' }
-          }}
-        >
-          <NavLink href="https://github.com/LinkScapeFoundation">GitHub</NavLink>
-          <NavLink href="https://bank.hackclub.com/donations/start/linkscape">
-            Donate
-          </NavLink>
-          <NavLink href="https://hackclub.com">
-            Hack Club
-          </NavLink>
-        </Grid>
-      </Container>
-    </Box>
     <Container variant="wide">
 	    <Grid
 	      gaps={4}
