@@ -35,6 +35,7 @@ const DocsPage = () => (
     manifest="/site.webmanifest"
     />
     <Container variant="wide">
+	  <br />
           <Box
             sx={{
               width: '90vw',
@@ -43,7 +44,7 @@ const DocsPage = () => (
               mx: 'auto',
               py: [4, 4, 4],
               textShadow: 'text'
-	      backgroundColor: 'black',
+              backgroundColor: 'black',
             }}
           >
             <Text
