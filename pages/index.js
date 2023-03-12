@@ -123,37 +123,17 @@ const DocsPage = () => (
           </Box>
     </Box>
     <Container variant="wide">
-	    <Grid
-	      gaps={4}
-	      columns = "auto auto"
-	    >
-	      <Card>
-		<Box>
-		  <Container variant="narrow" sx={{ textAlign: 'center' }}>
-		    <Heading variant="headline">Newsletter</Heading>
-		    <Grid gap={3} columns={[null, 2]} as="form" variant="cards.sunken" action="https://postal.hackclub.com/subscribe" method="POST" accept-charset="utf-8">
-		      <Label for="name">Name
-			<Input type="text" name="name" id="name"/>
-		      </Label>
-		      <Label for="email">Email
-			<Input type="email" name="email" id="email"/>
-		      </Label>
-		      <Input hidden type="text" type="hidden" name="hp" id="hp"/>
-		      <Input type="hidden" name="list" value="1AaBEdR4lS7PwHFOfEzGtQ"/>
-		      <Input type="hidden" name="subform" value="yes"/>
-		      <Button
-			as="button"
-			children="Subscribe"
-			type="submit"
-			name="submit"
-			id="submit"
-			sx={{ gridColumn: [null, 'span 2'], transformOrigin: 'center left', backgroundImage: theme.util.gx('cyan', 'blue') }}
-		      />
-		   </Grid>
-		  </Container>
-		</Box>
-	      </Card>
-            </Grid>
+      <form action="https://postal.hackclub.com/subscribe" method="POST" accept-charset="utf-8">
+        <input type="text" name="name" id="name" placeholder="Name" required>
+
+        <input type="email" name="email" id="email" placeholder="Email" required>
+
+        <input type="hidden" name="hp" id="hp">
+        <input type="hidden" name="list" value="1AaBEdR4lS7PwHFOfEzGtQ">
+        <input type="hidden" name="subform" value="yes">
+
+        <button type="submit" sx={{ transformOrigin: 'center left', backgroundImage: theme.util.gx('cyan', 'blue') }}>SUBSCRIBE</button>
+      </form>
     </Container>
     <br />
     <Grid
