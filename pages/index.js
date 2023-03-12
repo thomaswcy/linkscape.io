@@ -90,7 +90,7 @@ const DocsPage = () => (
                     sx={{
                       // lineHeight: 0.875,
                       px: 2,
-                      backgroundColor: 'red',
+                      backgroundColor: 'blue',
                       position: 'absolute',
                       borderRadius: 10,
                       transform: 'rotate(-3deg) translateY(-5px)',
@@ -115,7 +115,7 @@ const DocsPage = () => (
                 as="a"
                 href="/donate"
                 mt={[3, 0, 0]}
-                sx={{ transformOrigin: 'center left' }}
+                sx={{ transformOrigin: 'center left', backgroundColor: 'blue' }}
               >
                 Donate
               </Button>
