@@ -34,7 +34,6 @@ const DocsPage = () => (
     color="#ec3750"
     manifest="/site.webmanifest"
     />
-    <Container variant="wide">
 	  <br />
           <Box
             sx={{
@@ -43,8 +42,8 @@ const DocsPage = () => (
               position: 'relative',
               mx: 'auto',
               py: [4, 4, 4],
-              textShadow: 'text'
-              backgroundColor: 'black',
+              textShadow: 'text',
+              background: '#000000',
             }}
           >
             <Text
@@ -121,6 +120,7 @@ const DocsPage = () => (
               </Button>
             </Heading>
           </Box>
+    <Container variant="wide">
 	    <Grid
 	      gaps={4}
 	      columns = "auto auto"
