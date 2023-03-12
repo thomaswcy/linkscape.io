@@ -123,7 +123,7 @@ const DocsPage = () => (
           </Box>
     </Box>
     <Container variant="wide">
-      <form action="https://postal.hackclub.com/subscribe" method="POST" accept-charset="utf-8" />
+      <form action="https://postal.hackclub.com/subscribe" method="POST" accept-charset="utf-8">
         <input type="text" name="name" id="name" placeholder="Name" required />
 
         <input type="email" name="email" id="email" placeholder="Email" required />
@@ -135,6 +135,7 @@ const DocsPage = () => (
         <button type="submit" sx={{ transformOrigin: 'center left', backgroundImage: theme.util.gx('cyan', 'blue') }}>SUBSCRIBE</button>
       </form>
     </Container>
+
     <br />
     <Grid
       columns={[1, 'auto auto auto']}
