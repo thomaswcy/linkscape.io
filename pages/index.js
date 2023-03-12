@@ -181,49 +181,50 @@ const DocsPage = () => (
     </Container>
     <br />
     <Grid
-          gaps={0}
-          columns = "auto auto auto"
-          sx={{
-            alignItems: 'center',
-            justifyContent: 'center',
-
-            a: { color: 'muted', transition: 'color .125s ease-in-out' }
-        }}
-        >
-      <Card>
-        <Container>
-          <Avatar src="https://avatars.githubusercontent.com/u/62056970" />
-          <Heading as="h2" variant="headline">
-            Thomas Wu
-          </Heading>
-          <text variant="subtitle">
-            Founder & CEO
-          </text>
-        </Container>
-      </Card>
-      <Card>
-        <Container>
-          <Avatar src="https://gcore.jsdelivr.net/gh/thomaswcy/linkscape.io@main/MeliLiu-Avatar.png" />
-          <Heading as="h2" variant="headline">
-            Meli Liu
-          </Heading>
-          <text variant="subtitle">
-            Founder & COO & CFO
-          </text>
-        </Container>
-        </Card>
-      <Card>
-        <Container>
-          <Avatar src="https://gcore.jsdelivr.net/gh/thomaswcy/linkscape.io@main/JettChen-Avatar.jpg" />
-          <Heading as="h2" variant="headline">
-            Jett Chen
-          </Heading>
-          <text variant="subtitle">
-            Co-founder & CTO
-          </text>
-        </Container>
-      </Card>
-    </Grid>       
+      columns={[1, 2, 3]} // 设置响应式列数
+      sx={{
+        alignItems: 'center',
+        justifyContent: 'center',
+        a: { color: 'muted', transition: 'color .125s ease-in-out' },
+        "& > div": {
+          width: ["100%", "80%", "30%"] // 设置响应式卡片宽度
+        }
+      }}
+    >
+  <Card>
+    <Container>
+      <Avatar src="https://avatars.githubusercontent.com/u/62056970" />
+      <Heading as="h2" variant="headline">
+        Thomas Wu
+      </Heading>
+      <Text variant="subtitle">
+        Founder & CEO
+      </Text>
+    </Container>
+  </Card>
+  <Card>
+    <Container>
+      <Avatar src="https://gcore.jsdelivr.net/gh/thomaswcy/linkscape.io@main/MeliLiu-Avatar.png" />
+      <Heading as="h2" variant="headline">
+        Meli Liu
+      </Heading>
+      <Text variant="subtitle">
+        Founder & COO & CFO
+      </Text>
+    </Container>
+  </Card>
+  <Card>
+    <Container>
+      <Avatar src="https://gcore.jsdelivr.net/gh/thomaswcy/linkscape.io@main/JettChen-Avatar.jpg" />
+      <Heading as="h2" variant="headline">
+        Jett Chen
+      </Heading>
+      <Text variant="subtitle">
+        Co-founder & CTO
+      </Text>
+    </Container>
+  </Card>
+</Grid>   
     <Box as="footer" sx={{ bg: 'sheet', color: 'text' }}>
       <Container sx={{ pt: 5, pb: [3, 4], textAlign: 'center' }}>
           <a href="https://vercel.com/?utm_source=linkscape&utm_campaign=oss">
