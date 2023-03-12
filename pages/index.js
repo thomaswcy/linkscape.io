@@ -153,6 +153,7 @@ const DocsPage = () => (
 		  </Container>
 		</Box>
 	      </Card>
+            </Grid>
     </Container>
     <br />
     <Grid
