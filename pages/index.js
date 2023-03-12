@@ -181,55 +181,48 @@ const DocsPage = () => (
     </Container>
     <br />
     <Grid
-      gaps={0}
-      columns="auto"
+      columns={[1, 'auto auto auto']}
       sx={{
         alignItems: 'center',
         justifyContent: 'center',
-
         a: { color: 'muted', transition: 'color .125s ease-in-out' },
       }}
-      css={{
-        '@media screen and (min-width: 768px)': {
-          columns: 'auto auto auto',
-        },
-      }}
+      gap={0}
     >
       <Card>
-        <Container sx={{ textAlign: 'center' }}>
+        <Container>
           <Avatar src="https://avatars.githubusercontent.com/u/62056970" />
-          <Heading as="h2" variant="headline" sx={{ fontSize: [2, 3] }}>
+          <Heading as="h2" variant="headline">
             Thomas Wu
           </Heading>
-          <Text variant="subtitle" sx={{ fontSize: 0 }}>
-            Founder &amp; CEO
-          </Text>
+          <text variant="subtitle">
+            Founder & CEO
+          </text>
         </Container>
       </Card>
       <Card>
-        <Container sx={{ textAlign: 'center' }}>
+        <Container>
           <Avatar src="https://gcore.jsdelivr.net/gh/thomaswcy/linkscape.io@main/MeliLiu-Avatar.png" />
-          <Heading as="h2" variant="headline" sx={{ fontSize: [2, 3] }}>
+          <Heading as="h2" variant="headline">
             Meli Liu
           </Heading>
-          <Text variant="subtitle" sx={{ fontSize: 0 }}>
-            Founder &amp; COO &amp; CFO
-          </Text>
+          <text variant="subtitle">
+            Founder & COO & CFO
+          </text>
         </Container>
-      </Card>
+        </Card>
       <Card>
-        <Container sx={{ textAlign: 'center' }}>
+        <Container>
           <Avatar src="https://gcore.jsdelivr.net/gh/thomaswcy/linkscape.io@main/JettChen-Avatar.jpg" />
-          <Heading as="h2" variant="headline" sx={{ fontSize: [2, 3] }}>
+          <Heading as="h2" variant="headline">
             Jett Chen
           </Heading>
-          <Text variant="subtitle" sx={{ fontSize: 0 }}>
-            Co-founder &amp; CTO
-          </Text>
+          <text variant="subtitle">
+            Co-founder & CTO
+          </text>
         </Container>
       </Card>
-    </Grid>
-
+    </Grid>  
     <Box as="footer" sx={{ bg: 'sheet', color: 'text' }}>
       <Container sx={{ pt: 5, pb: [3, 4], textAlign: 'center' }}>
           <a href="https://vercel.com/?utm_source=linkscape&utm_campaign=oss">
