@@ -34,12 +34,7 @@ const DocsPage = () => (
     color="#ec3750"
     manifest="/site.webmanifest"
     />
-    <Box as="header" sx={{ bg: 'black' }}>
-    <div
-      sx={{
-	background: '#000000',
-      }}
-    >
+    <Box as="header" sx={{ bg: '#000000' }}>
 	  <br />
 	  <br />
           <Box
