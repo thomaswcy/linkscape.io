@@ -34,9 +34,9 @@ const DocsPage = () => (
     color="#ec3750"
     manifest="/site.webmanifest"
     />
-    <div
+    <Container
       sx={{
-        display: 'none',
+        width: '100vw',
 	background: '#000000',
       }}
     >
@@ -126,7 +126,7 @@ const DocsPage = () => (
               </Button>
             </Heading>
           </Box>
-    </div>
+    </Container>
     <Container variant="wide">
 	    <Grid
 	      gaps={4}
