@@ -119,6 +119,16 @@ const DocsPage = () => (
               >
                 Donate
               </Button>
+              <Button
+                variant="ctaLg"
+                as="a"
+                href="https://github.com/linkscape-official"
+                mt={[3, 0, 0]}
+                sx={{ transformOrigin: 'center left', backgroundImage: theme.util.gx('cyan', 'blue') }}
+                className='mx-3 hidden'
+              >
+                Github
+              </Button>
             </Heading>
           </Box>
     </Box>
