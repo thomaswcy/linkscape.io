@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import styled from '@emotion/styled'
-import { css, keyframes } from '@emotion/react'
-import { Box, Container, Flex, Link, Text } from 'theme-ui'
+import { Box, Link } from 'theme-ui'
 import theme from '@hackclub/theme'
 import NextLink from 'next/link'
 
@@ -13,19 +12,9 @@ const rgbaBgColor = (props, opacity) =>
     ${opacity}
   )`
 
-// const bg = (props) =>
-//   props.dark
-//     ? css`
-//         -webkit-backdrop-filter: saturate(90%) blur(20px);
-//         backdrop-filter: saturate(90%) blur(20px);
-//       `
-//     : css`
-//         -webkit-backdrop-filter: saturate(180%) blur(20px);
-//         backdrop-filter: saturate(180%) blur(20px);
-//       `
 const fixed = props =>
   (props.scrolled || props.toggled || props.fixed) &&
-  css`
+  `
     background-color: ${rgbaBgColor(props, 0.96875)};
     border-bottom: 1px solid rgba(48, 48, 48, 0.125);
     @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
@@ -34,7 +23,6 @@ const fixed = props =>
         : rgbaBgColor(props, 0.75)};
       -webkit-backdrop-filter: saturate(180%) blur(20px);
       backdrop-filter: saturate(180%) blur(20px);
-      /* {bg}; to support dark mode later */
     }
   `
 
@@ -73,14 +61,20 @@ const hoverColor = name =>
     primary: 'error'
   }[name] || 'black')
 
-const slide = keyframes({
-  from: { transform: 'translateY(-25%)', opacity: 0 },
-  to: { transform: 'translateY(0)', opacity: 1 }
-})
+const slide = `
+  from {
+    transform: translateY(-25%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+`
 
 const layout = props =>
   props.isMobile
-    ? css`
+    ? `
         display: ${props.toggled ? 'flex' : 'none'};
         flex-direction: column;
         overflow-y: auto;
@@ -105,7 +99,7 @@ const layout = props =>
           }
         }
       `
-    : css`
+    : `
         @media (min-width: 56em) {
           display: flex;
           justify-content: flex-end;
@@ -118,6 +112,7 @@ const layout = props =>
           }
         }
       `
+
 const NavBar = styled(Box)`
   display: none;
   ${layout};
@@ -150,7 +145,7 @@ const Navigation = props => (
   </NavBar>
 )
 
-const ToggleContainer = styled(Flex)`
+const ToggleContainer = styled(Box)`
   align-items: center;
   justify-content: center;
   min-width: 64px;
@@ -233,7 +228,7 @@ function Header({ unfixed, color, bgColor, dark, fixed, ...props }) {
         color={baseColor}
         dark={dark}
       />
-      {toggled && <ScrollLock />}
+      {toggled && <Box css="position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index: 999;" />}
     </Root>
   )
 }
