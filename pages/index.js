@@ -35,9 +35,90 @@ const DocsPage = () => (
     manifest="/site.webmanifest"
     />
     <Container variant="wide">
-	    <br />
-	    <br />
-	    <br />
+          <Box
+            sx={{
+              width: '90vw',
+              maxWidth: [null, 'layout'],
+              position: 'relative',
+              mx: 'auto',
+              py: [4, 4, 4],
+              textShadow: 'text'
+            }}
+          >
+            <Text
+              variant="eyebrow"
+              sx={{
+                color: 'sunken',
+                pb: 2,
+                position: 'relative',
+                display: 'block'
+              }}
+              as="h4"
+            >
+              Welcome to LinkScape
+            </Text>
+            <Heading>
+              <Text
+                as="h1"
+                variant="title"
+                sx={{
+                  color: 'white',
+                  mb: [3, 4],
+                  zIndex: 1,
+                  textAlign: 'left',
+                  fontSize: ['42px', '52px', '64px'],
+                  lineHeight: 1.2,
+                  width: '100%'
+                }}
+              >
+                We are
+                <Text
+                  sx={{
+                    color: 'transparent',
+                    ml: 2,
+                    mr: 3,
+                    whiteSpace: 'nowrap'
+                  }}
+                >
+                  <Text
+                    onClick={() => {
+                      setHover(false)
+                      !reveal ? setReveal(true) : setReveal(false)
+                    }}
+                    sx={{
+                      // lineHeight: 0.875,
+                      px: 2,
+                      backgroundColor: 'red',
+                      position: 'absolute',
+                      borderRadius: 10,
+                      transform: 'rotate(-3deg) translateY(-5px)',
+                      color: 'white',
+                      whiteSpace: 'nowrap',
+                      textDecoration: 'none',
+                      '&:hover': {
+                        cursor: 'pointer'
+                      }
+                    }}
+                    aria-hidden="true"
+                  >
+                    student hackers
+                  </Text>
+                  student hackers
+                </Text>
+                <br sx={{ display: ['inline', 'none', 'none'] }} /> from 
+                China who code together
+              </Text>
+              <Button
+                variant="ctaLg"
+                as="a"
+                href="/donate"
+                mt={[3, 0, 0]}
+                sx={{ transformOrigin: 'center left' }}
+              >
+                Donate
+              </Button>
+            </Heading>
+          </Box>
 	    <Grid
 	      gaps={4}
 	      columns = "auto auto"
