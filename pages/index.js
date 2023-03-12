@@ -115,7 +115,7 @@ const DocsPage = () => (
                 as="a"
                 href="/donate"
                 mt={[3, 0, 0]}
-                sx={{ transformOrigin: 'center left', backgroundColor: 'blue' }}
+                sx={{ transformOrigin: 'center left', backgroundImage: 'linear-gradient(to bottom, #0074D9, #0F52BA)' }}
               >
                 Donate
               </Button>
