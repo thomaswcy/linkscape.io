@@ -213,6 +213,7 @@ function Header({ unfixed, color, bgColor, dark, fixed, ...props }) {
       as="header"
     >
       <Content>
+        <img src="https://cloud-btis5corq-hack-club-bot.vercel.app/02fa-_________links________1-fullimg.png" width="50" />
         <Navigation
           as="nav"
           aria-hidden={!!mobile}
