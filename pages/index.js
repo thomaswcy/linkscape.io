@@ -57,7 +57,7 @@ const DocsPage = () => (
               }}
               as="h4"
             >
-              Welcome to LinkScape
+              This is LinkScape
             </Text>
             <Heading>
               <Text
@@ -115,7 +115,7 @@ const DocsPage = () => (
                 as="a"
                 href="/donate"
                 mt={[3, 0, 0]}
-                sx={{ transformOrigin: 'center left', backgroundImage: 'linear-gradient(to bottom, #ADD8E6, #87CEEB)' }}
+                sx={{ transformOrigin: 'center left', backgroundImage: theme.util.gx('cyan', 'blue') }}
               >
                 Donate
               </Button>
