@@ -20,6 +20,8 @@ import {
   Text,
   Textarea
 } from 'theme-ui'
+import { SiGithub } from '@icons-pack/react-simple-icons'
+import { BanknotesIcon } from '@heroicons/react/24/solid'
 import Head from 'next/head'
 import theme from '@hackclub/theme'
 import Meta from '@hackclub/meta'
@@ -117,16 +119,17 @@ const DocsPage = () => (
                 mt={[3, 0, 0]}
                 sx={{ transformOrigin: 'center left', backgroundImage: theme.util.gx('cyan', 'blue') }}
               >
+                <BanknotesIcon className='h-6 w-6 text-white'/>
                 Donate
               </Button>
               <Button
                 variant="ctaLg"
                 as="a"
-                href="https://github.com/linkscape-official"
-                mt={[3, 0, 0]}
+                href="https://github.com/LinkScapeOfficial"
+                ml={3}
                 sx={{ transformOrigin: 'center left', backgroundImage: theme.util.gx('cyan', 'blue') }}
-                className='mx-3 hidden'
               >
+                <SiGithub size={24}/>
                 Github
               </Button>
             </Heading>
