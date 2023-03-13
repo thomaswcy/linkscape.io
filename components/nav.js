@@ -114,7 +114,6 @@ const layout = props =>
       `
 
 const NavBar = styled(Box)`
-  display: none;
   ${layout};
   a {
     margin-left: ${theme.space[3]}px;
