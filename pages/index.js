@@ -135,18 +135,21 @@ const DocsPage = () => (
             </Heading>
           </Box>
     </Box>
-    <Container variant="wide">
+    <Container variant="copy" mt={3}>
+      <Card variant='sunken'>
+      <Text variant='headline'>Subscribe to our newsletter!</Text>
       <form action="https://postal.hackclub.com/subscribe" method="POST" accept-charset="utf-8">
-        <input type="text" name="name" id="name" placeholder="Name" required />
+        <Input type="text" name="name" id="name" placeholder="Name" required />
 
-        <input type="email" name="email" id="email" placeholder="Email" required />
+        <Input mt={2} type="email" name="email" id="email" placeholder="Email" required />
 
-        <input type="hidden" name="hp" id="hp" />
-        <input type="hidden" name="list" value="1AaBEdR4lS7PwHFOfEzGtQ" />
-        <input type="hidden" name="subform" value="yes" />
+        <Input type="hidden" name="hp" id="hp" />
+        <Input type="hidden" name="list" value="1AaBEdR4lS7PwHFOfEzGtQ" />
+        <Input type="hidden" name="subform" value="yes" />
 
-        <button type="submit" sx={{ transformOrigin: 'center left', backgroundImage: theme.util.gx('cyan', 'blue') }}>SUBSCRIBE</button>
+        <Button type="submit" mt={3} sx={{ transformOrigin: 'center left', backgroundImage: theme.util.gx('cyan', 'blue') }}>SUBSCRIBE</Button>
       </form>
+      </Card>
     </Container>
 
     <br />
