@@ -144,6 +144,13 @@ const Navigation = props => (
   </NavBar>
 )
 
+const Navs = [
+  {href: "/team", name:"Team", passHref: true},
+  {href: "/hackathons", name:"Hackathons", passHref: true},
+  {href: "https://workshops.hackclub.com/", name:"Workshops" , passHref: false},
+  {href: "https://scrapbook.hackclub.com/", name: "Scrapbook", passHref: false}
+]
+
 const ToggleContainer = styled(Box)`
   align-items: center;
   justify-content: center;
