@@ -47,7 +47,7 @@ const NaviBar = () => {
                 })}
               </Dropdown.Menu>
             </Dropdown>
-            <Link className="btn btn-ghost normal-case text-xl" href="/"><img src="https://cloud-lg4bzew4u-hack-club-bot.vercel.app/02fa-links________1-prefect.png" height="10" /></Link>
+            <Link className="btn btn-ghost normal-case text-xl" href="/"><img src="https://cloud-lg4bzew4u-hack-club-bot.vercel.app/02fa-links________1-prefect.png" class="h-50" /></Link>
           </Navbar.Start>
           <Navbar.Center className="hidden lg:flex">
             <Menu horizontal className="p-0">
