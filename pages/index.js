@@ -162,7 +162,7 @@ const DocsPage = () => (
           </a>
       <br />
       <text>
-        © 2023 LinkScape, a 501(c)(3) nonprofit fiscally sponsored by <a href="https://the.hackfoundation.org"><text sx={{ textDecoration: 'underline' }}>The Hack Foundation</text></a>. <br />EIN: 81-2908499
+        © 2023 LinkScape, a 501(c)(3) nonprofit fiscally sponsored by <a href="https://the.hackfoundation.org"><text class="underline">The Hack Foundation</text></a>. <br />EIN: 81-2908499
       </text>
       </Container>
     </Box>
