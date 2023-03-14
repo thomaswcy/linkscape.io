@@ -58,9 +58,6 @@ const NaviBar = () => {
               })}
             </Menu>
           </Navbar.Center>
-          <Navbar.End>
-            <Button>Get started</Button>
-          </Navbar.End>
         </Navbar>
       </div>
     </>
