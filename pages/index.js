@@ -158,7 +158,7 @@ const DocsPage = () => (
     <Box as="footer" sx={{ bg: 'sheet', color: 'text' }}>
       <Container sx={{ pt: 5, pb: [3, 4], textAlign: 'center' }}>
           <a href="https://vercel.com/?utm_source=linkscape&utm_campaign=oss">
-            <img alt="Vercel" src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" />
+            <img className='mx-auto' alt="Vercel" src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" />
           </a>
       <br />
       <text>
