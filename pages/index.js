@@ -25,6 +25,7 @@ import { BanknotesIcon } from '@heroicons/react/24/solid'
 import Head from 'next/head'
 import theme from '@hackclub/theme'
 import Meta from '@hackclub/meta'
+import Team from './team'
 
 const DocsPage = () => (
   <>
@@ -153,53 +154,11 @@ const DocsPage = () => (
     </Container>
 
     <br />
-    <Grid
-      columns={[1, 'auto auto auto']}
-      sx={{
-        alignItems: 'center',
-        justifyContent: 'center',
-        a: { color: 'muted', transition: 'color .125s ease-in-out' },
-      }}
-      gap={0}
-    >
-      <Card>
-        <Container>
-          <Avatar src="https://avatars.githubusercontent.com/u/62056970" />
-          <Heading as="h2" variant="headline">
-            Thomas Wu
-          </Heading>
-          <text variant="subtitle">
-            Founder & CEO
-          </text>
-        </Container>
-      </Card>
-      <Card>
-        <Container>
-          <Avatar src="https://gcore.jsdelivr.net/gh/thomaswcy/linkscape.io@main/MeliLiu-Avatar.png" />
-          <Heading as="h2" variant="headline">
-            Meli Liu
-          </Heading>
-          <text variant="subtitle">
-            Founder & COO & CFO
-          </text>
-        </Container>
-        </Card>
-      <Card>
-        <Container>
-          <Avatar src="https://gcore.jsdelivr.net/gh/thomaswcy/linkscape.io@main/JettChen-Avatar.jpg" />
-          <Heading as="h2" variant="headline">
-            Jett Chen
-          </Heading>
-          <text variant="subtitle">
-            Co-founder & CTO
-          </text>
-        </Container>
-      </Card>
-    </Grid>  
+    <Team/>
     <Box as="footer" sx={{ bg: 'sheet', color: 'text' }}>
       <Container sx={{ pt: 5, pb: [3, 4], textAlign: 'center' }}>
           <a href="https://vercel.com/?utm_source=linkscape&utm_campaign=oss">
-            <img alt="Vercel" src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" />
+            <img className='mx-auto' alt="Vercel" src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" />
           </a>
       <br />
       <text>
